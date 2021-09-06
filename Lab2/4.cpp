@@ -19,6 +19,7 @@ class Shape{
 class Rectangle: public Shape{
     float l,b;
     public:
+    //constructor
     Rectangle(float x,float y){
         l=x;
         b=y;
@@ -36,6 +37,7 @@ class Rectangle: public Shape{
 class Circle: public Shape{
     float r;
     public:
+    //constructor
     Circle(float x){
         r=x;
     }
