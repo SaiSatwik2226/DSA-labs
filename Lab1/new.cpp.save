@@ -1,0 +1,8 @@
+#include<stdio.h>
+new.cpp: In function ‘int main()’:
+new.cpp:4:2: error: ‘cout’ was not declared in this scope
+    4 |  cout<<"hello world";
+int main(){
+	cout<<"hello world";
+	return 0;
+}
